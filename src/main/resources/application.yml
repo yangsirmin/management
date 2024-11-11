@@ -3,8 +3,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tlias
-    username: root
-    password: ybc
+    username: 
+    password: 
   #文件上传配置
   servlet:
     multipart:
@@ -20,10 +20,10 @@ mybatis:
 #阿里云配置
 aliyun:
   oss:
-    endpoint: https://oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI5tG5rgXUWRn2YTqLHUBQ
-    accessKeySecret: bSBjFqhEYTc5qvi8pszVgejyMQzgUL
-    bucketName: springboot-tlias123
+    endpoint: 
+    accessKeyId: 
+    accessKeySecret: 
+    bucketName: 
 
 #spring事务管理日志
 logging:
